@@ -15,7 +15,7 @@ switch (middle_earth_danger){
         document.write('Resurrect!')
 
         break;
-    }
+    } break;
 
     case 'yes':
         var someone_else = prompt('Can someone else deal with it?');
@@ -32,7 +32,7 @@ switch (middle_earth_danger){
                 document.write('Resurrect!')
 
                 break;
-            }
+            } break;
 
             case 'no':
             var hobbits = prompt('what about Hobbits?');
@@ -54,7 +54,7 @@ switch (middle_earth_danger){
                             case ('no'):
                             document.write('Resurrect!');
                             break;
-                        }
+                        } break;
                     case 'no':
                     document.write ('Call the eagles!');
                     break;
