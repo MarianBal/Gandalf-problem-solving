@@ -30,7 +30,7 @@ body{
     padding: 0 10px 0 10px;
 }
 .imagen{
-    background-image: url(./img./preg.png);
+    background-image: url(./img/preg.png);
     background-repeat: no-repeat;
     width:600px;
     height: 430px;
@@ -86,7 +86,7 @@ body{
 }
 
 .imagen{
-    background-image: url(img./cajados.png);
+    background-image: url(./img/cajados.png);
     background-repeat: no-repeat;
     width:290px;
     height:392px;
