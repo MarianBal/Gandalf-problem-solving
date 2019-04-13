@@ -30,7 +30,7 @@ body{
     padding: 0 10px 0 10px;
 }
 .imagen{
-    background-image: url(./img./preg.png);
+    background-image: url(../img./preg.png);
     background-repeat: no-repeat;
     width:600px;
     height: 430px;
