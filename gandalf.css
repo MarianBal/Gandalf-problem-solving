@@ -68,7 +68,6 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 120px;
-
 }
 .far{
     font-size: 50px;
@@ -90,12 +89,17 @@ body{
     background-image: url(img./cajados.png);
     background-repeat: no-repeat;
     width:290px;
-    height: 392px;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height:392px;
+    padding: 0;  
+}
+
+#pregunta{
+    width: 200px;
+    height: 300px;
+    font-size: 25px;
+}
+.botones{
+    width: 200px;
+    margin-bottom: 120px;
 }
 }
