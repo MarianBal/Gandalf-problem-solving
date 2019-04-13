@@ -80,10 +80,22 @@ body{
 
 
 @media screen and (max-width: 650px) {
-.titulo{
-    background-color: blue;
-    width: 90%;
 
-    font-size: 25px;
+.titulo{
+    width: 90%;
+    font-size: 40px;
+}
+
+.imagen{
+    background-image: url(img./cajados.png);
+    background-repeat: no-repeat;
+    width:290px;
+    height: 392px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }
