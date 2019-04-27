@@ -174,7 +174,7 @@ si.onclick = function(){
                         si.onclick = function(){
                             return pregunta.textContent = ''
                         }
-                        return pregunta.textContent = 'Great!'
+                        return pregunta.textContent = '¡Genial!'
                     }
                 }
             
@@ -184,7 +184,7 @@ si.onclick = function(){
                         return pregunta.textContent = ''
                     }
             
-                    return pregunta.textContent = 'Resurrect'
+                    return pregunta.textContent = 'Resucitá'
                 }
             }
 
@@ -193,20 +193,20 @@ si.onclick = function(){
                     return pregunta.textContent = ''
                 }
 
-                pregunta.textContent = 'Call the eagles'
+                pregunta.textContent = 'Llamá a las aguilas'
             }
 
         }
     }
 }
 no.onclick = function(){
-    pregunta.textContent = 'Are you alive?'
+    pregunta.textContent = '¿Estás vivo?'
 
     si.onclick = function(){
-        pregunta.textContent = 'Are you in danger?'
+        pregunta.textContent = '¿Estás en peligro?'
 
         si.onclick = function(){
-            pregunta.textContent = 'Are swords of use here?'
+            pregunta.textContent = '¿Hay espadas que puedas usar?'
 
             si.onclick = function(){
 
@@ -214,16 +214,16 @@ no.onclick = function(){
                     return pregunta.textContent = ''
                 }
 
-                return pregunta.textContent = 'Great!'
+                return pregunta.textContent = '¡Genial!'
             }
             no.onclick = function(){
-                pregunta.textContent = 'Does magic works?'
+                pregunta.textContent = '¿Funciona la magia?'
 
                 si.onclick = function(){
                     no.onclick = function(){
                         return pregunta.textContent = ''
                     }
-                    return pregunta.textContent = 'Great!'
+                    return pregunta.textContent = '¡Genial!'
                 }
                 no.onclick = function(){
 
@@ -231,7 +231,7 @@ no.onclick = function(){
                         return pregunta.textContent = ''
                     }
 
-                    return pregunta.textContent = 'Call the eagles!'
+                    return pregunta.textContent = '¡Llamá a las aguilas!'
                 }
 
 
@@ -243,7 +243,7 @@ no.onclick = function(){
             si.onclick = function(){
                 return pregunta.textContent = ''
             }
-            return pregunta.textContent = 'Great!'
+            return pregunta.textContent = '¡Genial!'
         }
     }
 
@@ -253,6 +253,6 @@ no.onclick = function(){
             return pregunta.textContent = ''
         }
 
-        return pregunta.textContent = 'Resurrect'
+        return pregunta.textContent = 'Resucitá'
     }
 }
